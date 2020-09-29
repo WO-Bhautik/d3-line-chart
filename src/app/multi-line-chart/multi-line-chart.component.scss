@@ -1,0 +1,82 @@
+.multi-line-chart {
+  .chart-selection {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .multi-line-chart-container {
+    height: 350px;
+    margin: 10px;
+
+    svg {
+      box-sizing: border-box;
+      border-radius: 10px;
+      border: solid 1px #aaaaaa;
+    }
+
+    text.valueLabel {
+      fill: #696969;
+      font-size: 16px;
+      font-weight: 300;
+    }
+
+    .tick text {
+      fill: #777777;
+    }
+
+    .axis .tick text {
+      font-size: 11px;
+    }
+
+    .tick line {
+      shape-rendering: CrispEdges;
+      stroke: #aaaaaa;
+    }
+
+    .tick line.origin {
+      stroke: #aaaaaa;
+    }
+
+    .axis path.domain {
+      stroke: #aaaaaa;
+    }
+  }
+  .selection-list {
+    margin: 10px;
+  }
+}
+
+div.tooltipDiv {
+  border: 1px solid #777777;
+  border-radius: 10px;
+  padding: 8px;
+  padding-right: 12px;
+
+  .title {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  .tooltipField {
+    display: flex;
+    flex-direction: row;
+    line-height: 20px;
+
+    .name {
+      width: 140px;
+      font-size: 12px;
+      font-weight: 400;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+
+    .value {
+      margin-left: 20px;
+      font-weight: 600;
+      font-size: 13px;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+<div class="multi-line-chart">
+    <div class="chart-selection">
+        <div class="multi-line-chart-container" #container></div>
+        <div class="selection-list">
+            <ng-multiselect-dropdown [placeholder]="'custom placeholder'" [settings]="dropdownSettings"
+                [data]="dropdownList" [(ngModel)]="selectedItems" (onDeSelectAll)="onDeSelectAll($event)"
+                (onSelect)="onItemSelect($event)" (onDeSelect)="onDeSelect($event)" (onSelectAll)="onSelectAll($event)"
+                #multiSelect>
+            </ng-multiselect-dropdown>
+            <div class="table">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col" *ngFor="let column of tableColumns"> {{ column }} </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let data of tableData" (mouseout)="onTableRowOut()"
+                            (mouseover)="onTableRowHover(data)">
+                            <th scope="row">{{ data.name }}</th>
+                            <td *ngFor="let val of data.values; index as i">
+                                <input [value]="val" (keyup.enter)="onInputChange($event.target.value, data.name, i)">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

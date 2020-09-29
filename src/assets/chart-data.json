@@ -1,0 +1,132 @@
+[
+  {
+    "Name": "Sites on air with\n E///",
+    "Mar": 45,
+    "Apr": 72,
+    "May": 104,
+    "Jun": 169,
+    "Jul": 236,
+    "Aug": 298,
+    "Sep": 306
+  },
+  {
+    "Name": "5G sites on air",
+    "Mar": 45,
+    "Apr": 72,
+    "May": 104,
+    "Jun": 169,
+    "Jul": 236,
+    "Aug": 298,
+    "Sep": 306
+  },
+  {
+    "Name": "Radio-planned\n sites",
+    "Mar": 45,
+    "Apr": 72,
+    "May": 104,
+    "Jun": 169,
+    "Jul": 236,
+    "Aug": 298,
+    "Sep": 306
+  },
+  {
+    "Name": "Upgrade MDU HC\n (HP?) in FAST",
+    "Mar": 45,
+    "Apr": 72,
+    "May": 104,
+    "Jun": 169,
+    "Jul": 236,
+    "Aug": 298,
+    "Sep": 306
+  },
+  {
+    "Name": "Upgrade HC (HP?)\n SDU",
+    "Mar": 45,
+    "Apr": 72,
+    "May": 104,
+    "Jun": 169,
+    "Jul": 236,
+    "Aug": 298,
+    "Sep": 306
+  },
+  {
+    "Name": "Node\n segmentations",
+    "Mar": 45,
+    "Apr": 72,
+    "May": 104,
+    "Jun": 169,
+    "Jul": 236,
+    "Aug": 298,
+    "Sep": 306
+  },
+  {
+    "Name": "FWA Installations",
+    "Mar": 674,
+    "Apr": 1211,
+    "May": 2175,
+    "Jun": 3555,
+    "Jul": 4600,
+    "Aug": 6085,
+    "Sep": 6587
+  },
+  {
+    "Name": "Built expansion\n initiatives",
+    "Mar": 674,
+    "Apr": 1211,
+    "May": 2175,
+    "Jun": 3555,
+    "Jul": 4600,
+    "Aug": 6085,
+    "Sep": 6587
+  },
+  {
+    "Name": "Corrective time for\n 60% of all sites &lt;2\n days",
+    "Mar": 63,
+    "Apr": 61,
+    "May": 53,
+    "Jun": 57,
+    "Jul": 55,
+    "Aug": "",
+    "Sep": ""
+  },
+  {
+    "Name": "Dice roll - score on \ncustomer\n experience (truck\n rolls)",
+    "Mar": 5.78,
+    "Apr": 5.64,
+    "May": "",
+    "Jun": 5.58,
+    "Jul": 5.52,
+    "Aug": "",
+    "Sep": ""
+  },
+  {
+    "Name": "GF",
+    "Mar": 0,
+    "Apr": 10900,
+    "May": 10900,
+    "Jun": 10900,
+    "Jul": 10900,
+    "Aug": 11300,
+    "Sep": 11300
+  },
+  {
+    "Name": "RT",
+    "Mar": 0,
+    "Apr": 20400,
+    "May": 20400,
+    "Jun": 20400,
+    "Jul": 20400,
+    "Aug": 23500,
+    "Sep": 23500
+  },
+  {
+    "Name": "New FTTH MDU HC",
+    "Mar": 2007,
+    "Apr": 4789,
+    "May": 5177,
+    "Jun": 8533,
+    "Jul": 9298,
+    "Aug": 9582,
+    "Sep": 9907
+  }
+]
